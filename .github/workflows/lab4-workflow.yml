@@ -1,8 +1,8 @@
 name: Publish Package to GitHub NPM Registry
 
 on: 
-  push:
-    branches: [main]
+  release:
+    types: [published]
     
 jobs:
     npm-package:
